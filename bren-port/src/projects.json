@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Gateway Project",
+    "tech": "HTML | CSS",
+    "image": "/imgs/Tokyo.png",
+    "description": "Redesigned original gateway project",
+    "date": "November 2021",
+    "github": "https://github.com/BhamptonR2H/Gateway-Redesign",
+    "link": "https://bucolic-kitsune-973408.netlify.app/"
+  },
+  {
+    "id": 2,
+    "name": "Code For Justice",
+    "tech": "HTML | CSS",
+    "image": "/imgs/CFJ.png",
+    "description": "First group project using HTML & CSS",
+    "date": "December 2021",
+    "github": "https://github.com/RashaadB/Code4justice",
+    "link": "https://superlative-salmiakki-6f4f3c.netlify.app/index.html"
+  },
+  {
+    "id": 3,
+    "name": "News Outlet",
+    "tech": "HTML | CSS | JS | NodeJS",
+    "image": "/imgs/NewOutlet.png",
+    "description": "Group project where we used a third party API to get data",
+    "date": "Feburary 2022",
+    "github": "https://github.com/ArriolaHarold2001/hopeHacks",
+    "link": "http://c9newsoutlet.com/"
+  },
+  {
+    "id": 4,
+    "name": "Ecommerce Website V2",
+    "tech": "HTML | CSS | ReactJS | JS | MySQL",
+    "image": "/imgs/bbv.png",
+    "description": "Second version of ecommerce using a MySQL database",
+    "date": "March 2022",
+    "github": "https://github.com/BhamptonR2H/ecom-react",
+    "link": "http://bigbrensvinyls.com/"
+  }
+]

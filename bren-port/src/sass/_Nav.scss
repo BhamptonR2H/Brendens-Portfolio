@@ -1,0 +1,49 @@
+body,
+html {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  background: #323232;
+  font-family: OCR A Std, monospace;
+  color: white;
+  scroll-behavior: smooth;
+}
+
+.container ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #748ffc;
+  font-family: OCR A Std, monospace;
+  position: fixed;
+  width: 100%;
+  top: 0;
+
+  li {
+    float: left;
+  }
+  a {
+    display: block;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  a:hover {
+    color: white;
+    transition: 0.5s;
+  }
+}
+@media only screen and (device-width: 390px) {
+  .container ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #748ffc;
+    font-family: OCR A Std, monospace;
+    width: 100%;
+  }
+}

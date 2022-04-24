@@ -1,0 +1,151 @@
+.cardsec {
+  background-color: #2d2d2d;
+  margin-bottom: 4rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.card-body {
+  font-weight: 900;
+  font-size: larger;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  color: black;
+}
+
+.card-format {
+  width: 100%;
+  max-width: 80%;
+  margin: 2rem auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 3rem;
+}
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  padding-bottom: 1rem;
+}
+
+.card {
+  flex-direction: column;
+  text-align: center;
+  min-width: 14rem;
+  background: radial-gradient(#b197fc, #748ffc);
+  border: solid white 0.1rem;
+
+  &-img {
+    width: 100%;
+    height: 20rem;
+  }
+}
+
+.btn-link1 {
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 2rem;
+  margin-right: 1rem;
+  padding: 0.5rem;
+  background-color: white;
+  font-family: OCR A Std, monospace;
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+}
+.btn-link1:hover {
+  background-color: lightskyblue;
+  transition: 0.5s;
+}
+
+.btn-link2 {
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 2rem;
+  padding: 0.5rem;
+  font-family: OCR A Std, monospace;
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+}
+.btn-link2:hover {
+  background-color: lightskyblue;
+  transition: 0.5s;
+}
+@media screen and (max-width: 960px) {
+  .card-format {
+    max-width: 100%;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3rem;
+  }
+  .card {
+    flex-direction: column;
+    text-align: center;
+    max-height: 45rem;
+    max-width: 30rem;
+    background: radial-gradient(#b197fc, #748ffc);
+    border: solid white 0.1rem;
+
+    &-img {
+      width: 100%;
+      height: 20rem;
+    }
+  }
+
+  .btn-link1 {
+    margin-bottom: 1rem;
+    margin-right: 0.3rem;
+    padding: 0.6rem;
+    text-align: center;
+    height: 3rem;
+
+    a {
+      text-decoration: none;
+      color: black;
+    }
+  }
+  .btn-link2 {
+    margin-bottom: 1rem;
+    margin-right: 0.3rem;
+    padding: 0.5rem;
+    height: 3rem;
+
+    a {
+      text-decoration: none;
+      color: black;
+    }
+  }
+  .card-body {
+    font-weight: 900;
+    font-size: larger;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    color: black;
+  }
+}
+@media only screen and (device-width: 390px) {
+  .card-format {
+    max-width: 100%;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 3rem;
+  }
+  .card {
+    flex-direction: column;
+    text-align: center;
+    max-height: 45rem;
+    max-width: 30rem;
+    background: radial-gradient(#b197fc, #748ffc);
+    border: solid white 0.1rem;
+
+    &-img {
+      width: 100%;
+      height: 20rem;
+    }
+  }
+}
