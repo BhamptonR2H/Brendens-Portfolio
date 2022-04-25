@@ -1,16 +1,20 @@
 .aboutsec {
   text-align: center;
   background-color: none;
-  height: 28rem;
+  height: 36rem;
   margin-bottom: 3rem;
   h1 {
-    margin-top: 4rem;
+    margin-top: 5rem;
+    font-size: 3rem;
   }
   p {
     color: white;
-    font-size: 1.5rem;
+    font-size: 2.9rem;
     margin-left: 3rem;
     margin-right: 3rem;
+  }
+  h2 {
+    font-size: 2.5rem;
   }
 
   img {
@@ -22,8 +26,8 @@
   .aboutsec {
     text-align: center;
     background-color: none;
-    height: 35rem;
-    margin-bottom: 3rem;
+    height: 50rem;
+    margin-bottom: rem;
   }
 }
 @media only screen and (device-width: 390px) {
@@ -31,7 +35,7 @@
     text-align: center;
     background-color: none;
     height: 45rem;
-    margin-bottom: 6rem;
+    margin-bottom: 0.6rem;
     p {
       color: white;
       font-size: 1.5rem;

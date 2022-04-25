@@ -14,7 +14,7 @@ const Home = () => {
         />
         <h2>Software Developer</h2>
         <p>
-          Hello! y name is Brenden Hampton I am a enthusiastic, flexible
+          Hello! My name is Brenden Hampton I am a enthusiastic, flexible
           software engineer eager to contribute to team success through hard
           work, attention to detail, and excellent organizational skills. I'm
           Always looking to enhance or learn new skills in tech. On my free time

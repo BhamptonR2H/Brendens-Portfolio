@@ -6,7 +6,7 @@
 }
 .card-body {
   font-weight: 900;
-  font-size: larger;
+  font-size: 1.5rem;
   margin-left: 3rem;
   margin-right: 3rem;
   color: black;
@@ -22,7 +22,7 @@
 }
 h1 {
   text-align: center;
-  font-size: 2rem;
+  font-size: 3rem;
   padding-bottom: 1rem;
 }
 
@@ -31,7 +31,8 @@ h1 {
   text-align: center;
   min-width: 14rem;
   background: radial-gradient(#b197fc, #748ffc);
-  border: solid white 0.1rem;
+  border: solid black 0.1rem;
+  border-radius: 3rem;
 
   &-img {
     width: 100%;

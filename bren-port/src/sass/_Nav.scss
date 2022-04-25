@@ -4,7 +4,7 @@ html {
   padding: 0px;
   height: 100%;
   background: #323232;
-  font-family: OCR A Std, monospace;
+  font-family: "Yanone Kaffeesatz", sans-serif;
   color: white;
   scroll-behavior: smooth;
 }
@@ -15,7 +15,7 @@ html {
   padding: 0;
   overflow: hidden;
   background-color: #748ffc;
-  font-family: OCR A Std, monospace;
+  font-family: "Yanone Kaffeesatz", sans-serif;
   position: fixed;
   width: 100%;
   top: 0;
@@ -26,7 +26,7 @@ html {
   a {
     display: block;
     color: black;
-    font-size: 20px;
+    font-size: 1.5rem;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -45,5 +45,9 @@ html {
     background-color: #748ffc;
     font-family: OCR A Std, monospace;
     width: 100%;
+
+    a {
+      font-size: 1rem;
+    }
   }
 }

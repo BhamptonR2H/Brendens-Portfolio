@@ -1,5 +1,6 @@
 import React from "react";
 import "../sass/_Nav.scss";
+import Resume from "../BrendenHamptonResume1.pdf";
 const Nav = () => {
   return (
     <>
@@ -14,6 +15,11 @@ const Nav = () => {
             </li>
             <li>
               <a href="#Contact">Contact</a>
+            </li>
+            <li>
+              <a href={Resume} target="_blank">
+                Resume
+              </a>
             </li>
           </ul>
         </nav>
